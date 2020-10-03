@@ -5,3 +5,7 @@ aws:
   paramstore:
     enabled: true
     name: user-manager-service
+cloud:
+  aws:
+    stack:
+      auto: false
