@@ -10,6 +10,6 @@ sudo fuser -k 8080/tcp
 
 printf "Running the application\n"
 export SPRING_PROFILES_ACTIVE=prod
-java -jar ~/workdir/usermanagerservice/usermanagerservice-"${PROJECT_VERSION}".jar
+java -jar ./target/usermanagerservice-"${PROJECT_VERSION}".jar
 
 printf "Exit"
