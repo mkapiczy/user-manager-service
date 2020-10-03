@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: user-manager-service
+  profiles:
+    active: test
+aws:
+  paramstore:
+    enabled: false

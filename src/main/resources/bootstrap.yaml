@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: user-manager-service
+aws:
+  paramstore:
+    enabled: true
+    name: user-manager-service
