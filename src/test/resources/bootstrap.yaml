@@ -6,3 +6,7 @@ spring:
 aws:
   paramstore:
     enabled: false
+cloud:
+  aws:
+    stack:
+      auto: false
